@@ -4,6 +4,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = "C:\\Users\\HP\\Desktop\\flask_content"
 
  
+ 
 @app.route('/')  
 def upload():  
     return render_template("file_upload_form.html")  
