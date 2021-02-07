@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = "C:\\Users\\HP\\Desktop\\flask_content"
 
- 
+#Changes on this file
  
 @app.route('/')  
 def upload():  
